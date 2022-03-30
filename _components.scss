@@ -1,4 +1,4 @@
-nav {
+.navigation {
   height: 10vh;
   background-color: $color-primary;
   padding: 0 40px;
@@ -23,13 +23,21 @@ nav {
   color: $color-white;
 }
 
-h1 {
-  color: $color-primary;
-  font-size: 50px;
-}
+.intro {
+  text-align: center;
 
-h2 {
-  font-family: $font-display;
-  font-size: 25px;
-  margin: 20px 0;
+  &__heading {
+    color: $color-primary;
+    font-size: 50px;
+  }
+
+  &__sub-heading {
+    font-family: $font-display;
+    font-size: 25px;
+    margin: 20px 0;
+  }
+
+  &__button {
+    margin: auto;
+  }
 }

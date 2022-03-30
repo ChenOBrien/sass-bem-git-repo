@@ -12,7 +12,7 @@ a:visited {
   text-decoration: none;
 }
 
-header {
+.header {
   text-align: center;
   height: 90vh;
   display: flex;
@@ -21,7 +21,7 @@ header {
   align-items: center;
 }
 
-nav {
+.navigation {
   height: 10vh;
   background-color: #285271;
   padding: 0 40px;
@@ -46,13 +46,18 @@ nav {
   color: #fafafa;
 }
 
-h1 {
+.intro {
+  text-align: center;
+}
+.intro__heading {
   color: #285271;
   font-size: 50px;
 }
-
-h2 {
+.intro__sub-heading {
   font-family: "Dancing-Script", times-new-roman;
   font-size: 25px;
   margin: 20px 0;
+}
+.intro__button {
+  margin: auto;
 }
