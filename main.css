@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Roboto", times-new-roman;
+  font-family: "Roboto", sans-serif;
   color: #333333;
 }
 
@@ -39,7 +39,7 @@ a:visited {
 }
 
 .logo {
-  font-family: "Dancing-Script", times-new-roman;
+  font-family: "Dancing Script", serif;
   font-size: 20px;
   color: #fafafa;
 }
@@ -67,7 +67,7 @@ a:visited {
   font-size: 50px;
 }
 .intro__sub-heading {
-  font-family: "Dancing-Script", times-new-roman;
+  font-family: "Dancing Script", serif;
   font-size: 25px;
   margin: 20px 0;
 }
@@ -77,6 +77,7 @@ a:visited {
 
 .wave {
   vertical-align: top;
+  background-color: #285271;
 }
 
 .form {
