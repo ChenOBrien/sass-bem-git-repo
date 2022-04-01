@@ -52,6 +52,11 @@ a:visited {
   padding: 10px 20px;
   border-radius: 10px;
   color: #fafafa;
+  border: none;
+}
+.button--form {
+  width: 100%;
+  background-color: #55a5f0;
 }
 
 .intro {
@@ -69,11 +74,18 @@ a:visited {
 .intro__button {
   margin: auto;
 }
-.intro .wave {
+
+.wave {
   vertical-align: top;
 }
-.intro .form {
+
+.form {
   background-color: #fafafa;
   padding: 20px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.form__input {
+  margin-bottom: 20px;
 }
