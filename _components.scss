@@ -27,6 +27,13 @@
     width: 100%;
     background-color: $color-primary-light;
   }
+
+  &--secondary {
+    background-color: $color-white;
+    color: $color-primary-light;
+    border: solid 2px $color-primary-light;
+    margin: auto;
+  }
 }
 
 .intro {
@@ -61,5 +68,31 @@
 
   &__input {
     margin-bottom: 20px;
+  }
+}
+
+.customerexit {
+  display: flex;
+  flex-direction: column;
+
+  .exit__heading {
+    color: $color-black;
+    font-size: 25px;
+    font-family: $font-display;
+    margin: 20px 0;
+  }
+}
+
+.footer {
+  height: 10vh;
+  background-color: $color-primary;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__text {
+    font-size: 20px;
+    color: $color-white;
   }
 }
