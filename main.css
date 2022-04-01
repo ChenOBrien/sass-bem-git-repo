@@ -14,9 +14,17 @@ a:visited {
 
 .header {
   text-align: center;
-  height: 90vh;
+  height: 70vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  height: 50vh;
+  background-color: #285271;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -60,4 +68,12 @@ a:visited {
 }
 .intro__button {
   margin: auto;
+}
+.intro .wave {
+  vertical-align: top;
+}
+.intro .form {
+  background-color: #fafafa;
+  padding: 20px;
+  border-radius: 10px;
 }
